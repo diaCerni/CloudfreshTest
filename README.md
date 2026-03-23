@@ -98,4 +98,6 @@ app/
 ## Security notes
 
 - Do not commit `.env`, `credentials.json`, `token.json`, or service account keys.
-- Treat `user_pseudo_id` and `session_id` as identifiers you control for analytics/session features in Vertex AI Search.
+- Treat `user_pseudo_id` and `session_id` as identifiers you control for analytics/session features in Vertex AI Search
+
+# CloudfreshTest
