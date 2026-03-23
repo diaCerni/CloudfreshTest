@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Policy Search Agent</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Enterprise Policy Search Agent</h1>
+    <p class="subtitle">Vertex AI Search + Google-native RAG</p>
+
+    <div class="card">
+      <textarea id="question" placeholder="Ask a question about your documents..."></textarea>
+
+      <div class="actions">
+        <button id="askBtn">Ask</button>
+        <button id="searchBtn" class="secondary">Search Only</button>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Answer</h2>
+        <div id="answer" class="answer">No answer yet.</div>
+      </div>
+
+      <div class="card">
+        <h2>Sources</h2>
+        <div id="sources" class="sources">No sources yet.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Raw Search Results</h2>
+      <div id="results" class="results">No search results yet.</div>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
